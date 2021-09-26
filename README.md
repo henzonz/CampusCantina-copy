@@ -4,7 +4,7 @@
   <img src="application/frontend/src/assets/img/campuscantina-mainpage.JPG" width="650" height="425" title="hover text">
   
 </div>
-
+<div></div>
 | Team Members | Member Email | GitHub Usernames |
 |    :---:     |     :---:     |     :---:       |
 | Rajdeep Singh| rsingh12@mail.sfsu.edu | rajdeep0303 |
