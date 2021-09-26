@@ -1,5 +1,5 @@
 # Campus Cantina Repository Copy
-![Screenshot](campuscantina-mainpage.jpg)
+![Screenshot](campuscantina-mainpage.JPG)
 
 | Team Members | Member Email | GitHub Usernames |
 |    :---:     |     :---:     |     :---:       |
