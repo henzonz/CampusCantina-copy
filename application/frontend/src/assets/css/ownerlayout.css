@@ -1,0 +1,169 @@
+/* OwnerEditProfile */
+
+.editprofile{
+  color: white;
+  background-color: var(--primary-color-opac);
+  border-radius: 15px;
+  padding: 3%;
+  height: auto;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%;
+  color: var(--primary-color);
+}
+
+/* Ownerprofile/editprofile responsive */
+@media (max-width: 500px) {
+  .editprofile {
+    width: 100%;
+  }
+}
+@media (min-width: 750px) {
+  .editprofile {
+    width: 700px;
+  }
+}
+
+.cancel-btn:hover, .edit-btn:hover {
+  text-decoration: none;
+}
+
+.edit-btn {
+  color: var(--primary-color);
+}
+
+/* save button */
+.save-btn {
+  background-color: var(--secondary-color-opac);
+  color: white;
+}
+.save-btn:hover {
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* OwnerProfile */
+
+/* content border */
+.profile-content {
+  margin-left: auto;
+}
+.edit-link {
+  text-decoration:none;
+}
+
+/* modal width */
+@media (max-width: 500px) {
+  .modal {
+    width: 100%;
+  }
+} 
+
+.pending-alert {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+}
+
+.live-alert {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+/* OwnerOrderHistory */
+
+/* table header */
+.order-list-title {
+  background-color: var(--primary-color);
+  opacity: 0.9;
+  color: white;
+}
+
+/* order's table body  */
+.table-striped > tbody > tr:nth-child(odd) {
+  background-color: white;
+}
+.table-striped > tbody > tr:nth-child(even) {
+  background-color: var(--primary-color-opac);
+  color: white;
+}
+
+/* view button */
+.view-btn {
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.view-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* pending button */
+.order-status {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+}
+
+.order-status:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* modal title */
+.modal-header {
+  background-color: var(--primary-color-opac);
+  color: white;
+}
+
+/* modal confirm button */
+.modal-confirm-btn {
+  background-color: var(--primary-color-opac);
+  color: white;
+}
+
+
+/* OwnerMenu */
+
+/* table header */
+.table-header-menu {
+  background-color: var(--primary-color);
+  color: white;
+}
+/* table border */
+.panel-default {
+  border:7px solid var(--primary-color);
+  border-radius: 15px;
+  border-top: 0;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 750px) {
+  .panel-default {
+    width: 100%;
+  }
+}
+.menu-icon {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.menu-icon-plus {
+  cursor: pointer;
+}
+.menu-icon:hover, .menu-icon-plus:hover{
+  color: var(--secondary-color);
+  transition: all 0.5s ease;
+}
+
+.modal-edit {
+  margin-left:auto;
+  margin-right: auto;
+}

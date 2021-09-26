@@ -1,0 +1,48 @@
+@import '../css/index.css';
+
+.cuisine-section {
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.cuisine-section-heading {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.cuisine-link {
+  transition: transform 0.2s ease-in;
+  text-align: center;
+}
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.cuisine-link:hover {
+  transform: translateY(-15px);
+}
+.link-button:hover {
+  text-decoration: none;
+  color: var(--secondary-color2);
+}
+.link-button:focus {
+  outline: none !important;
+}
+.chinese-cuisine {
+  margin-top: -10px;
+  width: 50px;
+}
+
+/* for tablets and mobile widths*/
+@media (max-width: 768px) {
+  .cuisine-section {
+    justify-content: center;
+  }
+  .cuisine-link {
+    padding-left: 30px;
+  }
+}

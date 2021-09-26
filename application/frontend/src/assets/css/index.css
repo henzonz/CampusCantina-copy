@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+}
+
+:root {
+  --primary-color: #552583;
+  --secondary-color: #fdb927;
+  --secondary-color2: #004f71;
+  --inactive-color: #cdcdcd;
+  --primary-color-opac:  rgb(85,37,130, 0.5);
+  --primary-color-opac-2:  rgb(85,37,130, 0.8);
+  --secondary-color-opac: rgb(253,185,39,0.85);
+  --secondary-color-opac-2: rgb(253,185,39,0.5);
+}

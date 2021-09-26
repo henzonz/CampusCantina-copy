@@ -1,0 +1,12 @@
+/*Checkout background color*/
+.checkout_btn {
+  background-color: var(--primary-color) !important;
+}
+.checkout-link:hover {
+  text-decoration: none;
+}
+
+/* plus minus delete comments icons */
+.cart-icons {
+  cursor: pointer;
+}

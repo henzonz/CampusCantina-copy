@@ -1,0 +1,196 @@
+@import '../css/index.css';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+/* ready to use color classes */
+.primary-color {
+  color: var(--primary-color);
+}
+.secondary-color {
+  color: var(--secondary-color);
+}
+.primary-color-bg {
+  background-color: var(--primary-color);
+}
+.secondary-color-bg {
+  background-color: var(--secondary-color);
+}
+
+/* COMMON CSS CLASS -- CHECK*/
+.navbar {
+  display: flex;
+  background-color: var(--primary-color);
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  z-index: 1;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 5px 10px rgba(166, 173, 201, 0.2);
+}
+
+/* side menu section*/
+.side-menu {
+  background-color: white;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  z-index: 1;
+}
+.side-menu.open {
+  left: 0;
+  transition: 350ms;
+}
+/* side menu items link hover effect*/
+.menu-item a:hover {
+  text-decoration: none;
+}
+/* side menu items color on hover*/
+.side-menu-text:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/*copy right and disclaimer text*/
+.copytext {
+  padding: 20vh 25px 0px 20px;
+}
+.disclaimer {
+  font-size: xx-small;
+}
+
+/* logo-brand */
+.logo-pic {
+  margin-top: -11px;
+  position: absolute;
+}
+@media (max-width: 1011px) {
+  .campus {
+    display: none;
+  }
+}
+.campus {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  text-shadow: 1px 1px var(--secondary-color);
+  margin-left: 50px;
+}
+.campus-home-link:hover {
+  text-decoration: none;
+}
+.second-campus {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  text-shadow: 1px 1px var(--secondary-color);
+}
+@media (min-width: 500px) {
+  .second-campus {
+    display: none;
+  }
+}
+
+/* hamburger icon */
+.hamburger {
+  margin-top: -2px;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+/* cart section */
+.cart {
+  background-color: white;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  z-index: 1;
+}
+.cart.open {
+  right: 0;
+  transition: 350ms;
+}
+
+.lblCartText {
+  /* color: var(--primary-color); */
+  font-size: 15px;
+  color: white;
+  margin-top: -3px;
+  margin-bottom: -6px;
+}
+.lblIconText {
+  font-size: 15px;
+  /* color: var(--primary-color); */
+  color: white;
+  margin-top: -3px;
+  margin-bottom: -6px;
+}
+.lblIconText1 {
+  font-size: 15px;
+  /* color: var(--primary-color); */
+  color: white;
+  margin-top: -3px;
+  margin-bottom: -6px;
+}
+
+@media (max-width: 1380px) {
+  .lblIconText {
+    visibility: hidden;
+  }
+  .lblIconText1 {
+    visibility: visible;
+    margin-top: -24px;
+  }
+}
+
+@media (min-width: 1380px) {
+  .lblIconText {
+    visibility: visible;
+  }
+  .lblIconText1 {
+    visibility: hidden;
+    margin-top: -24px;
+  }
+}
+@media (max-width: 1309px) {
+  .lblIconText {
+    visibility: hidden;
+  }
+  .lblIconText1 {
+    visibility: visible;
+    margin-top: -48px;
+  }
+}
+
+.nav-btn-container {
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  margin-top: -5px;
+  padding: 0.15rem 0.5rem 0.15rem 0.5rem;
+}
+
+/* for mobile widths */
+@media (max-width: 499px) {
+  .msb-searchbar {
+    display: none;
+  }
+}
+@media (min-width: 500px) {
+  .second-nav {
+    display: none;
+  }
+}

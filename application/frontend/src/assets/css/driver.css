@@ -1,0 +1,56 @@
+/*Assigned orders header background color*/
+/*Order details header background*/
+.order_header{
+    background-color:var(--primary-color);
+    opacity: 0.9;
+}
+.delivered_text{
+    margin-right:auto;
+    margin-left:auto;
+    background-color:var(--primary-color)
+}
+/*border of table*/
+.table_order{
+    border:var(--primary-color);
+}
+/*header of table border color*/
+.border_header{
+   border-color: var(--primary-color) !important;
+}
+/*border of body table*/
+.border_body{
+    border-color: var(--primary-color) !important;
+}
+/*border of customer order card body*/
+.card_customerorder_body{
+    border-color:var(--primary-color) !important;
+}
+/*background color of customer order header*/
+.card_customerorder{
+    background-color: var(--primary-color);
+}
+/*border color of customer order map*/
+.customer_order_map{
+    border-color:var(--primary-color) !important;
+}
+/*Text above delivered button made smaller for subtle hint*/
+.click_delivered{
+    font-size: 10px;
+}
+/*shifts order detail items to left, was originally more right side*/
+.items{
+    padding-right: 100px;
+}
+/*text within delivered button for responsiveness*/
+.delivered_text{
+    font-size: 2vw;
+}
+/*deliver button background color and width responsiveness size*/
+.delivered_button{
+    background-color:var(--primary-color);
+    width:15vw !important;
+}
+/*removes customer info's bullet points*/
+.customer_info{
+    list-style: none;
+}

@@ -1,0 +1,58 @@
+.primary-color {
+  color: var(--primary-color);
+}
+
+.total-box {
+  border: solid 3px var(--primary-color);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 30px;
+}
+
+/* confirm order button background color */
+.confirm-order {
+  background-color: var(--primary-color);
+}
+
+/* total box opac background */
+.total-bg {
+  background-color: var(--primary-color-opac);
+}
+/* line divider turned to purple */
+.checkout-border {
+  border-color: var(--primary-color) !important;
+}
+
+/* for specific widths */
+@media (max-width: 992px) {
+  .total-box {
+    min-width: 300px;
+    margin-top: auto;
+  }
+}
+
+.location-search-input,
+.location-search-input:focus,
+.location-search-input:active {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: honeydew;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 2px;
+  outline: none;
+}
+.autocomplete-dropdown-container {
+  border-bottom: honeydew;
+  border-left: honeydew;
+  border-right: honeydew;
+  border-top: 1px solid #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 1000;
+  width: 72%;
+  border-radius: 0 0 2px 2px;
+}
