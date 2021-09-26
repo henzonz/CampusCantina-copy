@@ -1,7 +1,7 @@
 # Campus Cantina Repository Copy
 
 <div align="center">
-  <img src="application/frontend/src/assets/img/campuscantina-mainpage.JPG" width="350" title="hover text">
+  <img src="application/frontend/src/assets/img/campuscantina-mainpage.JPG" width="350" height="350" title="hover text">
   
 </div>
 
