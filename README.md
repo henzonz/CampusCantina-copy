@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="application/frontend/src/assets/img/campuscantina-mainpage.JPG" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="application/frontend/src/assets/img/campuscantina-mainpage.JPG" width="350" alt="accessibility text">
 </p>
 
 | Team Members | Member Email | GitHub Usernames |
