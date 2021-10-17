@@ -2,8 +2,8 @@
 
 <div align="center">
   <img src="application/frontend/src/assets/img/campuscantina-mainpage.JPG" width="650" height="400" title="hover text">
+  </br>
   <a href = "campuscantina.com">CampusCantina <a>
-  
 </div>
 
 | Team Members | Member Email | GitHub Usernames |
