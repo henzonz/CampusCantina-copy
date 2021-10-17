@@ -1,7 +1,8 @@
 # Campus Cantina Repository Copy
 
 <div align="center">
-  <a href = "campuscantina.com">CampusCantina <a>
+  <h3><a href = "campuscantina.com">CampusCantina </a></h3>
+    </br>
   <img src="application/frontend/src/assets/img/campuscantina-mainpage.JPG" width="650" height="400" title="hover text">
 </div>
 
